@@ -1,0 +1,38 @@
+﻿@model CareGo.Web.ViewModels.CityViewModel
+
+@{
+    ViewBag.Title = "Destinations";
+}
+
+<h2>@Model.Name Departures</h2>
+
+<p>
+    @*@Html.ActionLink("Create New", "Create")*@
+</p>
+
+<table class="table table-responsive table-hover">
+    <thead class="thead-inverse text-capitalize text-primary">
+        <tr>
+            <td>Destination</td>
+            <td>Departure Time</td>
+            <td>Arrival Time</td>
+            <td>Price</td>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model.Destinations)
+        {
+            <tr>
+                <td>@item</td>
+                <td>Unknown Time</td>
+                <td>Unknown Time</td>
+                <td>Unknown Price</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p>
+    @Html.ActionLink("Back", "Index", "Departures", null, new { @class = "btn btn-default" })
+</p>

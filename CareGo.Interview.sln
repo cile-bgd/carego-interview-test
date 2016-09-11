@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareGo.Web", "CareGo.Web\CareGo.Web.csproj", "{64E46C06-5298-4056-9DF5-4102D64C58FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareGo.Web.Tests", "CareGo.Web.Tests\CareGo.Web.Tests.csproj", "{91A2B416-222B-4932-BCE8-817F1515545D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64E46C06-5298-4056-9DF5-4102D64C58FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64E46C06-5298-4056-9DF5-4102D64C58FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64E46C06-5298-4056-9DF5-4102D64C58FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64E46C06-5298-4056-9DF5-4102D64C58FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91A2B416-222B-4932-BCE8-817F1515545D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91A2B416-222B-4932-BCE8-817F1515545D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91A2B416-222B-4932-BCE8-817F1515545D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91A2B416-222B-4932-BCE8-817F1515545D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
